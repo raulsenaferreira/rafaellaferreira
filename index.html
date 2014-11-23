@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Rafaella Ferreira</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/nbw-parallax.js"></script>
+<script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript" src="scripts/jquery.inview.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#nav').localScroll();
+})
+</script>
+</head>
+
+<body>
+<!-- <div id="logo"><img src="images/Logo_Rafa.png"></div> -->
+<ul id="nav">
+	<li><a href="#intro" title="Home"><h2>Home</h2></a></li>
+    <li><a href="#second" title="Sobre"><h2>Sobre</h2></a></li>
+    <li><a href="#third" title="Portfólio"><h2>Portfólio</h2></a></li>
+    <!-- <li><a href="#fourth" title="Contato"><h2>Contato</h2></a></li> -->
+    <li><a href="#fifth" title="Contato"><h2>Contato</h2></a></li>
+</ul>
+
+
+
+<div id="intro">
+	<div class="story"></div>
+    	
+  </div> <!--.story-->
+</div> <!--#intro-->
+
+<div id="second">
+	<div class="story">
+    
+	<div class="float-right"><img src="images/gato.png"></div>
+</div> <!--.story-->
+    
+</div> <!--#second-->
+
+<div id="third">
+	<div class="story">
+    	<div class="bg"></div>
+		<div class="bg1"></div>
+		<div class="bg2"></div>
+		<div class="bg3"></div>
+    </div> 
+</div> <!--#third-->
+
+<div id="fourth">
+	 <!--#fourth-->
+</div>
+ <!--#fifth-->
+<div id="fifth">
+    <div class="story">
+        <div class="float-left">
+            <h2>Get in Touch</h2>
+            <p><em>Gostou? Entre em contato.</em></p>
+            <p>Caso queira entrar em contato para realização de projetos, simples ou mais complexos, basta preencher o formulário ao lado ou simplesmente me contactar em meu número comercial.</p>
+            <p>Caso queira enviar por email sugestões, elogios ou críticas, sinta-se à vontade.</p>
+        </div>
+        <div class="float-right">
+          <table>
+            <form method="post" name="formulario" enctype="application/x-www-form-urlencoded"       action="enviar.php">
+                <tr><td colspan="2" align="center"><h3>Envie sua mensagem</h3></td></tr>
+                <tr><td><label>Nome: &nbsp;&nbsp;</label></td><td><input size="50" name="nome" required></td></tr>
+                <tr><td><label>E-mail:&nbsp;&nbsp;</label></td><td><input size="50" type=email name="email" required></td></tr>
+                <tr><td><label>Telefone:&nbsp;&nbsp;</label></td><td><input size="25" type="tel" name="tel"></td></tr>
+                <tr><td><label>Assunto:&nbsp;&nbsp;</label></td><td><input size="50" maxlength="50" name="assunto" required></td></tr>
+                <tr><td><label>Mensagem:&nbsp;&nbsp;</label></td><td><textarea name="mensagem" maxlength=1000 required style="width:300px; height:80px;"></textarea></td></tr>
+               <tr><td colspan="2" align="center"><button>Enviar</button></td></tr>
+            </form>
+          </table>
+        </div>
+    </div> <!--.story-->
+</div>
+<footer style="background:#000000; float:right; width:100%;"><font color="#ffffff">Desenvolvido por</font> <a href="http://www.raulferreira.com.br" target="_blank">Raul S. Ferreira</a></footer>
+</body>
+</html>
