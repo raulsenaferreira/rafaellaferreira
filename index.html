@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Rafaella Ferreira</title>
+<link rel="stylesheet" href="css/blueimp-gallery.min.css">
 <link href="style.css" rel="stylesheet" type="text/css" />
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
@@ -17,7 +18,7 @@ $(document).ready(function(){
 </head>
 
 <body>
-<!-- <div id="logo"><img src="images/Logo_Rafa.png"></div> -->
+<!-- <div id="logo"><img src="images/portfolio/logo.png"></div> -->
 <ul id="nav">
 	<li><a href="#intro" title="Home"><h2>Home</h2></a></li>
     <li><a href="#second" title="Sobre"><h2>Sobre</h2></a></li>
@@ -25,8 +26,6 @@ $(document).ready(function(){
     <!-- <li><a href="#fourth" title="Contato"><h2>Contato</h2></a></li> -->
     <li><a href="#fifth" title="Contato"><h2>Contato</h2></a></li>
 </ul>
-
-
 
 <div id="intro">
 	<div class="story"></div>
@@ -44,10 +43,178 @@ $(document).ready(function(){
 
 <div id="third">
 	<div class="story">
-    	<div class="bg"></div>
-		<div class="bg1"></div>
-		<div class="bg2"></div>
-		<div class="bg3"></div>
+    	<!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+        <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+            <div class="slides"></div>
+            <h3 class="title"></h3>
+            <a class="prev">‹</a>
+            <a class="next">›</a>
+            <a class="close">×</a>
+            <a class="play-pause"></a>
+            <ol class="indicator"></ol>
+        </div>
+        
+        <div class="links">
+            <h3>3DS Max</h3>
+            <a href="images/portfolio/3dsmax/renderizacao.jpg" title="Renderização 3DSMax - Ângulo 1">
+                <img style="width: 100px; height:100px;" src="images/portfolio/3dsmax/renderizacao.jpg" alt="Renderização 3DSMax - Ângulo 1">
+            </a>
+            <a href="images/portfolio/3dsmax/renderizacao2.jpg" title="Renderização 3DSMax - Ângulo 2">
+                <img style="width: 100px; height:100px;" src="images/portfolio/3dsmax/renderizacao2.jpg" alt="Renderização 3DSMax - Ângulo 2">
+            </a>
+            <a href="images/portfolio/3dsmax/renderizacao3.jpg" title="Renderização 3DSMax - Iluminação">
+                <img style="width: 100px; height:100px; " src="images/portfolio/3dsmax/renderizacao3.jpg" alt="Renderização 3DSMax - Iluminação">
+            </a>
+        </div>
+        
+        <div class="links">
+            <h3>AutoCAD</h3>
+            <a href="images/portfolio/autocad/planta.png" title="Planta baixa">
+                <img style="width: 100px; height:100px;" src="images/portfolio/autocad/planta.png" alt="Planta baixa">
+            </a>
+            <a href="images/portfolio/autocad/cortes.png" title="Cortes da planta baixa">
+                <img style="width: 100px; height:100px;" src="images/portfolio/autocad/cortes.png" alt="Cortes da planta baixa">
+            </a>
+            <a href="images/portfolio/autocad/vistas.png" title="Vistas da planta baixa">
+                <img style="width: 100px; height:100px; " src="images/portfolio/autocad/vistas.png" alt="Vistas da planta baixa">
+            </a>
+        </div>
+
+        <div class="links">
+            <h3>Photoshop</h3>
+            <a href="images/portfolio/photoshop/flyer_haras.jpg" title="Flyer Haras">
+                <img style="width: 100px; height:100px;" src="images/portfolio/photoshop/flyer_haras.jpg" alt="Flyer Haras">
+            </a>
+            <a href="images/portfolio/photoshop/flyer_skate.jpg" title="Flyer Skate">
+                <img style="width: 100px; height:100px;" src="images/portfolio/photoshop/flyer_skate.jpg" alt="Flyer Skate">
+            </a>
+            <a href="images/portfolio/photoshop/postal.jpg" title="Postal">
+                <img style="width: 100px; height:100px; " src="images/portfolio/photoshop/postal.jpg" alt="Postal">
+            </a>
+        </div>
+
+        <div class="links">
+            <h3>Corel Draw</h3>
+            <a href="images/portfolio/rosto.jpg" title="O Rosto">
+                <img style="width: 100px; height:100px;" src="images/portfolio/rosto.jpg" alt="O Rosto">
+            </a>
+            <!-- banners -->
+            <a href="images/portfolio/corel-banner/aniversario.jpg" title="Banner">
+                <img style="width: 100px; height:100px;" src="images/portfolio/corel-banner/aniversario.jpg" alt="Banner">
+            </a>
+            <a href="images/portfolio/corel-banner/aniversario2.jpg" title="Banner">
+                <img style="width: 100px; height:100px;" src="images/portfolio/corel-banner/aniversario2.jpg" alt="Banner">
+            </a>
+            <a href="images/portfolio/corel-banner/salao.jpg" title="Salão de beleza">
+                <img style="width: 100px; height:100px; " src="images/portfolio/corel-banner/salao.jpg" alt="Salão de beleza">
+            </a>
+            <!-- cartões de visita -->
+            <a href="images/portfolio/corel-cartao-visita/cartao_visita1.png" title="Cartão de Visita">
+                <img style="width: 100px; height:100px;" src="images/portfolio/corel-cartao-visita/cartao_visita1.png" alt="Cartão de Visita">
+            </a>
+            <a href="images/portfolio/corel-cartao-visita/cartao_visita2.png" title="Cartão de Visita">
+                <img style="width: 100px; height:100px;" src="images/portfolio/corel-cartao-visita/cartao_visita2.png" alt="Cartão de Visita">
+            </a>
+            <a href="images/portfolio/corel-cartao-visita/cartao_visita3.png" title="Cartão de Visita">
+                <img style="width: 100px; height:100px; " src="images/portfolio/corel-cartao-visita/cartao_visita3.png" alt="Cartão de Visita">
+            </a>
+             <a href="images/portfolio/corel-cartao-visita/cartao_visita4.png" title="Cartão de Visita">
+                <img style="width: 100px; height:100px;" src="images/portfolio/corel-cartao-visita/cartao_visita4.png" alt="Cartão de Visita">
+            </a>
+            <a href="images/portfolio/corel-cartao-visita/cartao_visita5.png" title="Cartão de Visita">
+                <img style="width: 100px; height:100px; " src="images/portfolio/corel-cartao-visita/cartao_visita5.png" alt="Cartão de Visita">
+            </a>
+            <!-- ilustração -->
+            <a href="images/portfolio/corel-ilustracao/cristo.jpg" title="Cristo">
+                <img style="width: 100px; height:100px; " src="images/portfolio/corel-ilustracao/cristo.jpg" alt="Cristo">
+            </a>
+             <a href="images/portfolio/corel-ilustracao/kit_ressaca.jpg" title="Kit Ressaca">
+                <img style="width: 100px; height:100px;" src="images/portfolio/corel-ilustracao/kit_ressaca.jpg" alt="Kit Ressaca">
+            </a>
+            <a href="images/portfolio/corel-ilustracao/regua_bailarina.jpg" title="Régua Bailarina">
+                <img style="width: 100px; height:100px; " src="images/portfolio/corel-ilustracao/regua_bailarina.jpg" alt="Régua Bailarina">
+            </a>
+            <a href="images/portfolio/corel-ilustracao/regua_estrela.jpg" title="Régua Estrela">
+                <img style="width: 100px; height:100px; " src="images/portfolio/corel-ilustracao/regua_estrela.jpg" alt="Régua Estrela">
+            </a>
+             <a href="images/portfolio/corel-ilustracao/regua_guitarra.jpg" title="Régua Guitarra">
+                <img style="width: 100px; height:100px;" src="images/portfolio/corel-ilustracao/regua_guitarra.jpg" alt="Régua Guitarra">
+            </a>
+            <a href="images/portfolio/corel-ilustracao/sapo.jpg" title="Sapos">
+                <img style="width: 100px; height:100px; " src="images/portfolio/corel-ilustracao/sapo.jpg" alt="Sapos">
+            </a>
+            <!-- logos -->
+            <a href="images/portfolio/corel-logo/macro_digital.jpg" title="Logo - Macro Digital">
+                <img style="width: 100px; height:100px; " src="images/portfolio/corel-logo/macro_digital.jpg" alt="Logo - Macro Digital">
+            </a>
+             <a href="images/portfolio/corel-logo/make_hair.jpg" title="Logo - Make Hair">
+                <img style="width: 100px; height:100px;" src="images/portfolio/corel-logo/make_hair.jpg" alt="Logo - Make Hair">
+            </a>
+            <a href="images/portfolio/corel-logo/solution_point.jpg" title="Logo - Solution Point">
+                <img style="width: 100px; height:100px; " src="images/portfolio/corel-logo/solution_point.jpg" alt="Logo - Solution Point">
+            </a>
+        </div>
+
+        <div class="links">
+            <h3>InDesign</h3>
+            <!-- Revista Destinos -->
+            <a href="images/portfolio/indesign/revista_destinos/capa.jpg" title="Editoração da Revista Destinos - UFRRJ">
+                <img style="width: 100px; height:100px;" src="images/portfolio/indesign/revista_destinos/capa.jpg" alt="Editoração da Revista Destinos - UFRRJ">
+            </a>
+            <a href="images/portfolio/indesign/revista_destinos/miolo.jpg" title="Editoração da Revista Destinos - UFRRJ">
+                <img style="width: 100px; height:100px;" src="images/portfolio/indesign/revista_destinos/miolo.jpg" alt="Editoração da Revista Destinos - UFRRJ">
+            </a>
+            <a href="images/portfolio/indesign/revista_destinos/aberto.png" title="Editoração da Revista Destinos - UFRRJ">
+                <img style="width: 100px; height:100px;" src="images/portfolio/indesign/revista_destinos/aberto.png" alt="Editoração da Revista Destinos - UFRRJ">
+            </a>
+            <!-- jornal da faculdade -->
+            <a href="images/portfolio/indesign/jornal_faculdade/art_noveau.png" title="Jornal da Faculdade - Art Noveau">
+                <img style="width: 100px; height:100px;" src="images/portfolio/indesign/jornal_faculdade/art_noveau.png" alt="Jornal da Faculdade - Art Noveau">
+            </a>
+            <a href="images/portfolio/indesign/jornal_faculdade/frente.png" title="Jornal da Faculdade - Frente">
+                <img style="width: 100px; height:100px;" src="images/portfolio/indesign/jornal_faculdade/frente.png" alt="Jornal da Faculdade - Frente">
+            </a>
+            <a href="images/portfolio/indesign/jornal_faculdade/verso.png" title="Jornal da Faculdade - Verso">
+                <img style="width: 100px; height:100px; " src="images/portfolio/indesign/jornal_faculdade/verso.png" alt="Jornal da Faculdade - Verso">
+            </a>
+            <!-- Livro faculdade -->
+            <a href="images/portfolio/indesign/livro_faculdade/livro11.png" title="Projeto Editorial - Tema 1 - Capa">
+                <img style="width: 100px; height:100px;" src="images/portfolio/indesign/livro_faculdade/livro11.png" alt="Projeto Editorial - Tema 1 - Capa">
+            </a>
+            <a href="images/portfolio/indesign/livro_faculdade/livro1.jpg" title="Projeto Editorial - Tema 1 - Miolo">
+                <img style="width: 100px; height:100px;" src="images/portfolio/indesign/livro_faculdade/livro1.jpg" alt="Projeto Editorial - Tema 1 - Miolo">
+            </a>
+            <a href="images/portfolio/indesign/livro_faculdade/livro2_capa.jpg" title="Projeto Editorial - Tema 2 - Capa">
+                <img style="width: 100px; height:100px;" src="images/portfolio/indesign/livro_faculdade/livro2_capa.jpg" alt="Projeto Editorial - Tema 1 - Capa">
+            </a>
+            <a href="images/portfolio/indesign/livro_faculdade/livro2.jpg" title="Projeto Editorial - Tema 2 - Miolo">
+                <img style="width: 100px; height:100px;" src="images/portfolio/indesign/livro_faculdade/livro2.jpg" alt="Projeto Editorial - Tema 2 - Miolo">
+            </a>
+            <a href="images/portfolio/indesign/livro_faculdade/livro3_capa.jpg" title="Projeto Editorial - Tema 1 - Capa">
+                <img style="width: 100px; height:100px;" src="images/portfolio/indesign/livro_faculdade/livro3_capa.jpg" alt="Projeto Editorial - Tema 1 - Capa">
+            </a>
+            <a href="images/portfolio/indesign/livro_faculdade/livro3.jpg" title="Projeto Editorial - Tema 3 - Miolo">
+                <img style="width: 100px; height:100px;" src="images/portfolio/indesign/livro_faculdade/livro3.jpg" alt="Projeto Editorial - Tema 3 - Miolo">
+            </a>
+            <!-- diversos -->
+            <a href="images/portfolio/indesign/diagramacao.jpg" title="Diagramação - Empresa Personalle">
+                <img style="width: 100px; height:100px;" src="images/portfolio/indesign/diagramacao.jpg" alt="Diagramação - Empresa Personalle">
+            </a>
+            <a href="images/portfolio/indesign/identidade_visual.png" title="Identidade Visual - Empresa Solution Point">
+                <img style="width: 100px; height:100px;" src="images/portfolio/indesign/identidade_visual.png" alt="Identidade Visual - Empresa Solution Point">
+            </a>
+        </div>
+
+        <script>
+        $('.links').click('on',function (event) {
+            event = event || window.event;
+            var target = event.target || event.srcElement,
+                link = target.src ? target.parentNode : target,
+                options = {index: link, event: event},
+                links = this.getElementsByTagName('a');
+            blueimp.Gallery(links, options);
+        }); 
+        </script>
     </div> 
 </div> <!--#third-->
 
@@ -79,5 +246,6 @@ $(document).ready(function(){
     </div> <!--.story-->
 </div>
 <footer style="background:#000000; float:right; width:100%;"><font color="#ffffff">Desenvolvido por</font> <a href="http://www.raulferreira.com.br" target="_blank">Raul S. Ferreira</a></footer>
+<script src="js/blueimp-gallery.min.js"></script>
 </body>
 </html>

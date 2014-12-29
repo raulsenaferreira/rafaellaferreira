@@ -50,7 +50,7 @@ $(document).ready(function() { //when the document is ready...
 		var windowHeight = $window.height(); //get the height of the window
 		var navHeight = $('#nav').height() / 2;
 		var windowCenter = (windowHeight / 2); 
-		var newtop = windowCenter - navHeight;
+		var newtop = windowCenter - navHeight-42;
 		$('#nav').css({"top": newtop}); //set the new top position of the navigation list
 	}
 	
@@ -74,10 +74,6 @@ $(document).ready(function() { //when the document is ready...
 		if($firstBG.hasClass("inview")){
 			//call the newPos function and change the background position
 			$firstBG.css({'backgroundPosition': newPos(60, windowHeight, pos, 350, 0.3)}); 
-			$balao.css({'backgroundPosition': newPos(60, windowHeight, pos, 900, 1.2)});
-			$indesign.css({'backgroundPosition': newPos(78, windowHeight, pos, 800, 0.4)});
-			$ilustrator.css({'backgroundPosition': newPos(40, windowHeight, pos, 850, 0.7)});
-			$photoshop.css({'backgroundPosition': newPos(25, windowHeight, pos, 1050, 1.0)});
 		}
 		
 		//if the second section is in view...

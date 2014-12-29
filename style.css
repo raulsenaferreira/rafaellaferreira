@@ -18,6 +18,11 @@ body{
 	position:absolute;
 }
 
+#logo > img {
+    margin: 5px;
+    width: 240px;
+}
+
 p{
 	margin: 0 0 20px 0;	
 }
@@ -98,51 +103,11 @@ h2{
 }
 
 #intro{
-	background:url(images/teste.png) 50% 10% no-repeat transparent;/*images/fundo1.jpg*/
+	background:url("images/portfolio/logo.png") no-repeat scroll 55% 10% / 800px auto transparent!important;
 	color: white;
 	height: 1100px;
 	margin: 0;
 	padding: 160px 0 0 0;
-}
-
-#third .bg{
-	background: url(images/balao.png) 25% 0 no-repeat fixed;
-	height: 1000px;
-	margin: -100px auto 0;
-	padding: 0;
-	position: absolute;
-	width: 900px;
-	z-index: 200;
-}
-
-#third .bg1{
-	background: url(images/indesign.png) 78% 55% no-repeat fixed;
-	height: 1000px;
-	margin: -100px auto 0;
-	padding: 0;
-	position: absolute;
-	width: 900px;
-	z-index: 200;
-}
-
-#third .bg2{
-	background: url(images/photoshop.png) 50% 15% no-repeat fixed;
-	height: 1000px;
-	margin: -100px auto 0;
-	padding: 0;
-	position: absolute;
-	width: 900px;
-	z-index: 200;
-}
-
-#third .bg3{
-	background: url(images/ilustrator.png) 25% 85% no-repeat fixed;
-	height: 1000px;
-	margin: -100px auto 0;
-	padding: 0;
-	position: absolute;
-	width: 900px;
-	z-index: 200;
 }
 
 #second{
@@ -196,12 +161,14 @@ h2{
 }
 
 #third{
-	background: none;
+	background:#000000;
 	color: white;
-	height: 650px;
-	padding: 100px 0 0 0;	
+	height: 800px;
+	/*padding: 100px 0 0 0;*/	
 }
-
+.links {
+    float: left;
+}
 #fourth{
 	background: url(images/bubbles2.png), url(images/bubbles2.png), url(images/bubbles1.png), url(images/fourthBG.jpg);
 	background-position: 50% 0, 50% 0, 50% 0, 50% 0;
